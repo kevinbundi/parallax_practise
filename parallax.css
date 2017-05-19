@@ -8,6 +8,11 @@ html, body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	/*turn off parallax scrolling for tablets and phones. increase
+	and decrease the pixels if needed*/
+	@media only screen and (max-device-width: 1024px) {
+		background-attachment: scroll;
+	}
 }
 .image_1{
 	background-image: url("IMG/stadium_1.jpg");
