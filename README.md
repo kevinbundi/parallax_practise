@@ -1,2 +1,2 @@
 # parallax_practise
-![Alt text](https://raw.github.com/kevinbundi/JavaScript_Basics/master/parallax.jpg)
+![Alt text](https://raw.github.com/kevinbundi/parallax_practise/master/parallax.jpg)
