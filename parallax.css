@@ -10,7 +10,7 @@ html, body {
 	position: relative;
 }
 .image_1{
-	background-image: url("stadium_1.jpg");
+	background-image: url("IMG/stadium_1.jpg");
 }
 	.caption{
 			position: absolute;
@@ -51,7 +51,7 @@ html, body {
 		line-height: 1.7;
 	}
 .image_2{
-	background-image: url("uefa_2.jpg");
+	background-image: url("IMG/uefa_2.jpg");
 	height: 50%;
 }
 	.image_2 .caption span.border{
@@ -71,7 +71,7 @@ html, body {
 		line-height: 1.7;
 	}
 .image_3{
-	background-image: url("uefa_1.jpg");
+	background-image: url("IMG/uefa_1.jpg");
 	height: 400px;
 }
 	.image_3 .caption span.border{
