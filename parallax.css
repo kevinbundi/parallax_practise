@@ -1,0 +1,80 @@
+html, body {
+	height: 100%;
+}
+.image_1, .image_2, .image_3 {
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.image_1{
+	background-image: url("stadium_1.jpg");
+}
+	.caption{
+			position: absolute;
+			left:0;
+			top: 50%;
+			width: 100%;
+			color:white;
+			text-align: center;
+			/*background-color: white;*/
+		}
+		.caption span.border{
+			background-color: #000;
+			color:#fff;
+			padding:18px;
+			font-size: 25px;
+			letter-spacing: 10px;
+			border-radius: 10px;
+		}
+#Lorem{
+	background-color: white;
+	text-align: center;
+	color: #777;
+	padding: 50px 80px;
+	text-align: justify;
+}
+	#Lorem h3{
+		text-align: center;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		font:25px "Lato", sans-serif;
+		border-color: #111;
+		color:#111;
+	}
+	#Lorem p{
+		font:18px "Lato", sans-serif;
+		text-align: justify;
+		letter-spacing: 1px;
+		line-height: 1.7;
+	}
+.image_2{
+	background-image: url("uefa_2.jpg");
+	height: 50%;
+}
+	.image_2 .caption span.border{
+	background-color: transparent;
+	}
+.Ipsum{
+	color:#ddd;
+	background-color: #282E34;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
+}
+	.Ipsum p{
+		font:18px "Lato", sans-serif;
+		text-align: justify;
+		letter-spacing: 1px;
+		line-height: 1.7;
+	}
+.image_3{
+	background-image: url("uefa_1.jpg");
+	height: 400px;
+}
+	.image_3 .caption span.border{
+	background-color: transparent; 
+	}
+	
