@@ -12,10 +12,6 @@ html, body {
 	background-size: cover;
 
 	position: relative;
-
-	/*turn off parallax scrolling for tablets and phones. increase
-	and decrease the pixels if needed*/
-	
 }
 .image_1{
 	background-image: url("IMG/stadium_1.jpg");
@@ -29,9 +25,9 @@ html, body {
 			text-align: center;
 			/*background-color: white;*/
 		}
-		/*.caption:hover{
+		.caption:hover{
 			opacity: 0.5;
-		}*/
+		}
 		.caption span.border{
 			background-color: #000;
 			color:#fff;
