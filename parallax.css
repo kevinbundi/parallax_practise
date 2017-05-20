@@ -2,17 +2,20 @@ html, body {
 	height: 100%;
 }
 .image_1, .image_2, .image_3 {
+	/*set height of image as desired*/
 	height: 100%;
+	/*use background-attachment:fixed to create the actual parallax effect*/
 	background-attachment: fixed;
+	/*other background properties used to center and scale the image perfectly*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	position: relative;
+
 	/*turn off parallax scrolling for tablets and phones. increase
 	and decrease the pixels if needed*/
-	@media only screen and (max-device-width: 1024px) {
-		background-attachment: scroll;
-	}
+	
 }
 .image_1{
 	background-image: url("IMG/stadium_1.jpg");
@@ -26,6 +29,9 @@ html, body {
 			text-align: center;
 			/*background-color: white;*/
 		}
+		/*.caption:hover{
+			opacity: 0.5;
+		}*/
 		.caption span.border{
 			background-color: #000;
 			color:#fff;
@@ -33,6 +39,9 @@ html, body {
 			font-size: 25px;
 			letter-spacing: 10px;
 			border-radius: 10px;
+		}
+		span.border:hover{
+			transform: scale(1.5);
 		}
 #Lorem{
 	background-color: white;
